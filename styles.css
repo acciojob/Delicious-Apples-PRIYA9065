@@ -1,1 +1,47 @@
 /* your code here */
+body{
+	background-color: green;
+}
+.photo-main > img{
+	width: 250px;
+}
+.product{
+	background-color:white;
+	width: 600px;
+	height: 700px;
+}
+.product__photo{
+	position: relative;
+	width: 300px;
+	height: 500px;
+	
+}
+
+.photo-container{
+	background-color: lightgreen;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+button{
+	background-color: red;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 2px 2px 0.2px grey;
+}
+
+.photo-album {
+	display: flex;
+}
+ul{
+	display: flex;
+}
+ul > li{
+	list-style-type: none;
+	
+}
